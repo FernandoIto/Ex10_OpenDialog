@@ -1,6 +1,6 @@
 object FormPrincipal: TFormPrincipal
-  Left = 437
-  Top = 135
+  Left = 574
+  Top = 202
   Width = 875
   Height = 587
   Caption = 'FormPrincipal'
@@ -21,11 +21,25 @@ object FormPrincipal: TFormPrincipal
     Align = alTop
     TabOrder = 0
     object sLabel1: TsLabel
-      Left = 640
+      Left = 296
       Top = 16
       Width = 37
       Height = 13
       Caption = 'sLabel1'
+    end
+    object sLabel2: TsLabel
+      Left = 296
+      Top = 32
+      Width = 30
+      Height = 13
+      Caption = 'Test 2'
+    end
+    object sLabel3: TsLabel
+      Left = 368
+      Top = 16
+      Width = 37
+      Height = 13
+      Caption = 'sLabel3'
     end
     object Button1: TButton
       Left = 16

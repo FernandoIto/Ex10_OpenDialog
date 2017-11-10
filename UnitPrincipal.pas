@@ -15,6 +15,8 @@ type
     SaveDialog1: TSaveDialog;
     Memo1: TMemo;
     sLabel1: TsLabel;
+    sLabel2: TsLabel;
+    sLabel3: TsLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
   private
@@ -39,7 +41,7 @@ begin
     Arquivo := OpenDialog1.FileName;
     Memo1.Lines.Clear;
     Memo1.Lines.LoadFromFile(Arquivo);
-    // Test
+    // Test 1
   end;
 end;
 
